@@ -1,30 +1,25 @@
-# Declarando variáveis
+# Recursos nativos do Browser
 
-Variáveis são usadas para armazenar determinado valor que será usado mais na frente.
+Vamos ver alguns recursos nativos que nos permitem interagir com o usuário.
 
-- ******let******
+- **************************console.log()**************************
     
-    Esse é o primeiro meio de declarar uma variável. Para declarar uma variável, é necessário informar o tipo declaração, nesse caso o ******let******, em seguida indicar o nome e indicar o sinal de igualdade (atribuição), junto com seu valor.
+    Esse método é responsável por mostrar no terminal do navegador ou no terminal do sistema, todo tipo de dado que for passado como parâmetro, dentro dos parenteses.
     
-    ```jsx
-    let nome = "Marcus Castilho"
-    ```
+- ******************console.info()****************** - ****************console.warn()**************** - ********console.error()********
     
-    Esse tipo de declaração de variável permite a alteração do dado.
+    Esse método, assim como o anterior, serve para exibir no terminal. Porém, o que mudará é a cor em que será exibido.
     
-    ```jsx
-    let nome = "Marcus Castilho"
-    nome = "Castpy"
-    ```
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dc34a279-99b7-4eb4-9956-56334b252f08/Untitled.png)
     
-- **********const**********
+- **************alert()**************
     
-    Esse é mais um tipo de declaração de variável no JS. A diferença desse meio de declaração é que ele não pode ser alterado, o tipo **********const********** é um valor ******************CONSTANTE,****************** ou seja, ele permanecerá o mesmo.
+    O método alert é usado para exibir uma caixa de dialogo para o usuário. 
     
-- ******var******
+    (Funcionará apenas no navegador)
     
-    O tipo de declaração ******var****** é exatamente igual ao ******let****** porém ele veio de heranças anteriores do JS. Mais na frente veremos os perigos de usar o ******var****** em determinados escopos.
+- ******confirm()******
     
-
-> Também podemos criar uma variável sem valor nenhum e seu retorno será ******************undefined****************** pois nada foi definido, mas pode ser alterado.
->
+    Esse método exibe uma caixa de diálogo e dois botões, um para cancelar (false) e outro para confirmar (true). O dado retornado será um booleano!
+    
+- ****************prompt()****************
